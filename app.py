@@ -9,7 +9,7 @@ import io
 app = Flask(__name__)
 
 # Load the Keras model (.keras format)
-model = load_model('./incident_detection_final_2.keras')  # Replace with your actual model file
+model = load_model('incident_detection_final_2.keras')  # Replace with your actual model file
 
 # Define your class names
 class_names = ['fire', 'road']  # Replace with your actual classes
